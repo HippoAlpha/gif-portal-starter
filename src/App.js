@@ -29,7 +29,7 @@ const opts = {
 // All your other Twitter and GIF constants you had.
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'hippo__alpha';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const TEST_GIFS = [
 	'https://i.giphy.com/media/eIG0HfouRQJQr1wBzz/giphy.webp',
@@ -227,9 +227,9 @@ const App = () => {
     <div className="App">
       <div className={walletAddress ? 'authed-container' : 'container'}>
         <div className="header-container">
-          <p className="header">🖼 Squid Game Memes</p>
+          <p className="header">🖼 DeMemes</p>
           <p className="sub-text">
-            The metaverse is netaverse ✨
+            SBF is a spoiled kid ✨
           </p>
           {!walletAddress && renderNotConnectedContainer()}
           {walletAddress && renderConnectedContainer()}
